@@ -16,6 +16,7 @@ const translations = {
     illustrationAlt: "Graphite staircase illustration of baby steps for healthy habits",
     staircaseSrc: "img/ChatGPT Image 10 сент. 2026 г., 14_40_07.png",
     phoneAlt: "Phone conversation showing daily habit support",
+    phoneSrc: "img/phone_en.png",
     priceLabel: "Price",
     name: "<span class=\"name-line\">Vera</span><span class=\"name-line name-surname\">Nepomniashchikh</span>",
     roleOne: "1-on-1 Habit Coach",
@@ -52,9 +53,9 @@ const translations = {
     copyright: "© 2026 Vera Nepomniashchikh"
   },
   ru: {
-    documentTitle: "Вера Непомнищих",
-    metaDescription: "Вера Непомнищих — персональный коуч по формированию привычек.",
-    brandFull: "ВЕРА НЕПОМНИЩИХ",
+    documentTitle: "Вера Непомнящих",
+    metaDescription: "Вера Непомнящих — персональный коуч по формированию привычек.",
+    brandFull: "ВЕРА НЕПОМНЯЩИХ",
     brandMobile: "ВЕРА",
     navWork: "РАБОТА СО МНОЙ",
     navContact: "КОНТАКТ",
@@ -63,13 +64,14 @@ const translations = {
     mainNavLabel: "Главная навигация",
     mobileNavLabel: "Мобильная навигация",
     languageLabel: "Переключение языка",
-    portraitAlt: "Портрет Веры Непомнищих",
+    portraitAlt: "Портрет Веры Непомнящих",
     illustrationLabel: "Иллюстрация маленьких шагов",
     illustrationAlt: "Графитовая иллюстрация лестницы маленьких шагов для здоровых привычек",
     staircaseSrc: "img/ChatGPT Image 10 сент. 2026 г., 14_48_39.png",
-    phoneAlt: "Переписка в телефоне с ежедневной поддержкой по привычкам",
+    phoneAlt: "Переписка в телssефоне с ежедневной поддержкой по привычкам",
+    phoneSrc: "img/phone_ru.png",
     priceLabel: "Стоимость",
-    name: "<span class=\"name-line\">Вера</span><span class=\"name-line name-surname\">Непомнищих</span>",
+    name: "<span class=\"name-line\">Вера</span><span class=\"name-line name-surname\">Непомнящих</span>",
     roleOne: "Персональный коуч по формированию привычек",
     roleTwo: "Ваш проводник в здоровый образ жизни",
     method: "Метод работы: маленькие шаги",
@@ -99,18 +101,19 @@ const translations = {
     positionEmphasis: "Маленькие изменения могут очень сильно изменить то, как мы живём.",
     positionBody5: "Я пишу о здоровье, привычках, поведении и о том, что мы действительно можем с этим сделать.",
     readMoreLabel: "Почитать:",
-    footerName: "Вера Непомнищих",
+    footerName: "Вера Непомнящих",
     footerRole: "Персональный коуч по формированию привычек",
-    copyright: "© 2026 Вера Непомнищих"
+    copyright: "© 2026 Вера Непомнящих"
   }
 };
 
 const linkConfig = {
   whatsapp: "https://wa.me/996779509696",
   telegram: "https://t.me/vera_neuro_trainer",
-  linkedin: "",
-  instagram: "",
-  medium: ""
+  linkedin: "https://www.linkedin.com/in/vera-nepomniashchikh-ab737a43/",
+  instagram: "https://www.instagram.com/vera.healthy.habits/",
+  medium: "https://medium.com/@vera.habits",
+  threads: "https://www.threads.com/@vera.healthy.habits"
 };
 
 const platformIcons = {
@@ -118,16 +121,17 @@ const platformIcons = {
   telegram: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 4.4 3.9 10.8c-.9.4-.9 1 0 1.2l4.1 1.3 1.6 5c.2.6.6.7 1 .2l2.4-2.3 4.2 3.1c.7.4 1.1.2 1.3-.7l3-13c.2-.9-.3-1.3-1-.9Z"/><path d="m8 13.3 9.6-6.1-7.5 7.2-.3 3.2"/></svg>',
   linkedin: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.2 9.1h3.1v9.7H5.2z"/><path d="M6.8 5.2a1.7 1.7 0 1 1 0 3.4 1.7 1.7 0 0 1 0-3.4Z"/><path d="M11.1 9.1h3v1.4c.5-.8 1.4-1.7 3-1.7 3.1 0 3.7 2 3.7 4.7v5.3h-3.1v-4.7c0-1.1 0-2.6-1.6-2.6s-1.9 1.2-1.9 2.5v4.8h-3.1z"/></svg>',
   instagram: '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4.2" y="4.2" width="15.6" height="15.6" rx="4.2"/><circle cx="12" cy="12" r="3.6"/><path d="M16.8 7.3h.1"/></svg>',
-  medium: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="7.1" cy="12" r="5.1"/><ellipse cx="15.2" cy="12" rx="2.6" ry="4.9"/><ellipse cx="20" cy="12" rx="1" ry="4.4"/></svg>'
+  medium: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="7.1" cy="12" r="5.1"/><ellipse cx="15.2" cy="12" rx="2.6" ry="4.9"/><ellipse cx="20" cy="12" rx="1" ry="4.4"/></svg>',
+  threads: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5c-4.2 0-7.6 2.8-7.6 6.3 0 1.9 1 3.6 2.6 4.7-.1-.6-.2-1.2 0-1.8.8-3.4 3.9-5.3 7.3-4.6 2.1.4 3.6 1.8 4.3 3.6-.8-.3-1.7-.4-2.6-.2-2.5.5-4.2 2.8-3.7 5.3.3 1.8 1.6 3.2 3.3 3.6-.8.2-1.7.3-2.5.1 2.5 1.6 5.8.8 7.4-1.7 1.3-2.1 1.3-4.8 0-6.9-1.4-2.2-3.8-3.5-6.5-3.5Z"/></svg>'
 };
 
 const socialSets = {
-  en: ["linkedin", "instagram", "medium"],
+  en: ["linkedin", "instagram", "medium", "threads"],
   ru: ["telegram", "instagram"]
 };
 
 const footerSocialSets = {
-  en: ["telegram", "instagram", "linkedin", "medium"],
+  en: ["telegram", "instagram", "linkedin", "medium", "threads"],
   ru: ["telegram", "instagram"]
 };
 
@@ -136,7 +140,8 @@ const platformNames = {
   telegram: "Telegram",
   linkedin: "LinkedIn",
   instagram: "Instagram",
-  medium: "Medium"
+  medium: "Medium",
+  threads: "Threads"
 };
 
 const getInitialLanguage = () => {
